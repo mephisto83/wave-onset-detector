@@ -4,9 +4,7 @@ import os
 import json
 
 # Set the directory containing the audio files
-directory = 'path/to/your/audio/files'  # Replace with the path to your audio files
-directory = 'C:\\Users\\bigboy\\Downloads\\Stems-20231129T005500Z-001\\Stems\\sitting_down_stems\\stems\\'  # Folder containing audio files
-output_directory = 'C:\\Users\\bigboy\\Downloads\\Stems-20231129T005500Z-001\\Stems\\sitting_down_stems\\stems\\output'  # Folder for output
+directory = 'F:\\seratoprojects\\sitting_down_stems\\stems\\'  # Folder containing audio files
 
 # Iterate through each file in the directory
 for filename in os.listdir(directory):
